@@ -1,0 +1,17 @@
+// Создание объекта с именем и возрастом
+var person = {
+  name: "Alice",
+  age: 25
+};
+
+// Использование условного оператора if для проверки возраста
+if (person.age >= 18) {
+  console.log(person.name + " is " + person.age + " years old and can vote.");
+} else {
+  console.log(person.name + " is only " + person.age + " years old and cannot vote yet.");
+}
+
+// Использование цикла for для вывода чисел от 1 до 5
+for (var i = 1; i <= 5; i++) {
+  console.log(i);
+}
